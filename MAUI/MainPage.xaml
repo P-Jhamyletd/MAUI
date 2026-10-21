@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MAUI.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="5"
+            Spacing="0"
+            BackgroundColor= "Aqua">
+
+            <Label Text="TECNOLOGICO NACIONAL DE MEXICO"
+               TextColor="Blue"
+               FontSize="20"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               FontFamily="Comic Sans MS"/>
+
+            <Label Text="INSTITUTO TECNOLOGICO DE TIJUANA"
+               TextColor="Blue"
+               FontSize="15"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"
+               FontFamily="Comic Sans MS"/> 
+
+            <Label Text=" APLICACIONES MÓVILES BASADAS EN COMPUTO EN LA NUBE"
+               TextColor="Blue"
+               FontSize="10"
+               HorizontalOptions="Center"
+               FontFamily="Comic Sans MS"/>
+
+            <Label Text=" "
+                 FontSize="15"/>
+
+            <Label Text="Carrera: Ingenieria en Sistemas Computacionales"
+               TextColor="Blue"
+               FontSize="15"
+               FontFamily="Comic Sans MS"/>
+
+            <Label Text="Horario - Salon: 20-21 LAB B"
+               TextColor="Blue"
+               FontSize="15"
+               FontFamily="Comic Sans MS"/>
+
+            <Label Text="Grupo: SCD-2505 - SC9A"
+               TextColor="Blue"
+               FontSize="15"
+               FontFamily="Comic Sans MS"/>
+
+            <Label Text="No Control: 22211629"
+               TextColor="Blue"
+               FontSize="15"
+               FontFamily="Comic Sans MS"/>
+
+            <Label Text="Alumno: Padron Jimenez Nicol Jhamyletd"
+                   TextColor="Blue"
+                   FontSize="15"
+                   FontFamily="Comic Sans MS"/>
+
+            <Label Text="Escribe el primer Numero:"
+                TextColor="Blue"
+                FontSize="15"
+                HorizontalOptions="Center"
+                FontFamily="Comic Sans MS"/> 
+            
+            <Entry Placeholder="Clic Aqui"
+                   x:Name="txtn1"
+                   Keyboard="Numeric"
+                   TextColor="Blue"/>
+
+            <Label Text="Escribe el segundo Numero:"
+                TextColor="Blue"
+                FontSize="15"
+                HorizontalOptions="Center"
+                FontFamily="Comic Sans MS"/>
+            
+            <Entry Placeholder="Clic Aqui"
+               x:Name="txtn2"
+               Keyboard="Numeric"
+               TextColor="Blue"/>
+
+            <Button Text="Calcular Operacion"
+                 x:Name="btncalcular"
+                 TextColor="Blue"
+                 BackgroundColor="White"
+                 FontAttributes="Bold"
+                 FontFamily="Comic Sans MS"
+                 FontSize="15"/>
+
+            <!-- El resultado de la Suma es: -->
+            <Label Text="Suma:"
+                TextColor="Blue"
+                FontSize="15"
+                HorizontalOptions="Center"
+                FontFamily="Comic Sans MS"/>
+            
+  
+            <Entry Placeholder="Clic Aqui"
+                x:Name="txtsuma"
+                Keyboard="Numeric"
+                TextColor="Blue"/>
+
+            <!-- El resultado de la Resta es: -->
+            <Label Text="Resta:"
+                TextColor="Blue"
+                FontSize="15"
+                HorizontalOptions="Center"
+                FontFamily="Comic Sans MS"/>
+            
+            <Entry Placeholder="Clic Aqui"
+                x:Name="txtresta"
+                Keyboard="Numeric"
+                TextColor="Blue"/>
+
+            <!-- El resultado de la Multiplicacion es: -->
+            <Label Text="Multiplicacion:"
+                TextColor="Blue"
+                FontSize="15"
+                HorizontalOptions="Center"
+                FontFamily="Comic Sans MS"/>
+            
+            <Entry Placeholder="Clic Aqui"
+             x:Name="txtmultiplicacion"
+             Keyboard="Numeric"
+             TextColor="Blue"/>
+
+            <!-- El resultado de la division es: -->
+            <Label Text="Division:"
+                TextColor="Blue"
+                FontSize="15"
+                HorizontalOptions="Center"
+                FontFamily="Comic Sans MS"/>
+            
+            <Entry Placeholder="Clic Aqui"
+                 x:Name="txtdividir"
+                  Keyboard="Numeric"
+                  TextColor="Blue"/>
+
+            <Button Text="Nueva Operacion"
+              x:Name="btnnueva"
+              TextColor="Blue"
+              BackgroundColor="White"
+              FontAttributes="Bold"
+              FontFamily="Comic Sans MS"
+              FontSize="15"/>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
